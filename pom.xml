@@ -27,7 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Spring AI 的 BOM 版本 -->
-        <spring-ai.version>1.0.0-M2</spring-ai.version>
+        <spring-ai.version>0.8.1</spring-ai.version>
     </properties>
 
     <!-- Spring 官方仓库（Milestone / Snapshot） -->
@@ -63,10 +63,10 @@
     <!-- 具体依赖 -->
     <dependencies>
         <!-- Spring AI 核心依赖（举例，可以按需添加） -->
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+<!--        </dependency>-->
 
         <!-- 你的工具类依赖 -->
         <dependency>
