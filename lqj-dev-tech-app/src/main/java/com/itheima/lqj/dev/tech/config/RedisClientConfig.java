@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Redis 客户端，使用 Redisson <a href="https://github.com/redisson/redisson">Redisson</a>
+ * Redis 客户端，使用 Redisson<a href="https://github.com/redisson/redisson">Redisson</a>
  *
  */
 @Configuration
