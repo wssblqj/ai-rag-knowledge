@@ -73,10 +73,10 @@ public class RAGController implements IRAGService {
             List<Document> documents = documentReader.get();
             List<Document> splitDocuments = tokenTextSplitter.apply(documents);
             documents.forEach(doc -> {
-                doc.getMetadata().put("knoeledge", ragTag);
+                doc.getMetadata().put("knowledge", ragTag);
             });
             splitDocuments.forEach(doc -> {
-                doc.getMetadata().put("knoeledge", ragTag);
+                doc.getMetadata().put("knowledge", ragTag);
             });
             pgVectorStore.accept(splitDocuments);
             RList<Object> elements = redissonClient.getList("ragTag");
